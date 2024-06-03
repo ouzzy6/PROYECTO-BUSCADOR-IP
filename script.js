@@ -7,7 +7,7 @@ const fetchIPinfo = ip => {
     }
   };
 
-  // Construir la URL correcta incluyendo la IP como parámetro de consulta
+  
   const url = `https://ip-geolocation-find-ip-location-and-ip-info.p.rapidapi.com/backend/ipinfo/?ip=${ip}`;
 
   return fetch(url, OPTIONS)
